@@ -14,6 +14,9 @@ If similar patterns are found in the dLMC for both vocal pitch modulation and sp
 
 By exploring the spatial and temporal dynamics of the neural activity in the dLMC and other relevant brain regions, we can gain a deeper understanding of how prosodic and gestural information are integrated during communication, and how this integration may have evolved to support the rich expressive capabilities of human language.
 
+![image](https://github.com/user-attachments/assets/8b81804d-5f2d-455c-a835-6b38e285b9c9)
+
+
 ## Data Processing and Exploratory Analysis
 
 #### Data Loading and Preprocessing
