@@ -68,7 +68,7 @@ Phase-locking value (PLV): Calculate the PLV between the instantaneous phases of
 
 ## Results and Interpretation
 
-The correlation analysis revealed a statistically significant positive correlation (r = 0.36, p < 0.001) between neural power and pose velocity in one participant. This suggests that there is a moderate relationship between the high gamma power in the selected electrodes and the velocity of the right shoulder movement during "Talk" events.
+The correlation analysis revealed a statistically significant positive correlation (r = 0.36, p < 0.05) between neural power and pose velocity in one participant. This suggests that there is a moderate relationship between the high gamma power in the selected electrodes and the velocity of the right shoulder movement during "Talk" events.
 
 However, it is important to note that correlation in one participant does not imply causation, and further analysis and experiments would be needed to establish any causal relationship between neural activity and movement. Additionally, the moderate correlation coefficient indicates that there may be other factors influencing the relationship between neural power and pose velocity.
 
