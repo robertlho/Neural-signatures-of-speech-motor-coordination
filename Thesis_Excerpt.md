@@ -1,3 +1,4 @@
+# This is an excerpt from my thesis titled:
 # Wide-bandwidth electrographic characterisation of seizures in rat models of epilepsy using graphene micro-transistors
 ### UCL Queen Square Institute of Neurology – MSc Clinical Neuroscience
 
