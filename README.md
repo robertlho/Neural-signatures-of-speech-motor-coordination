@@ -11,13 +11,14 @@ In the prior work I demonstrate the value of incorporating infraslow frequency a
 
 The ability to flexibly modulate vocal pitch in humans plays a crucial role in conveying linguistic meaning through intonation patterns in speech. Recent research has shown that the dorsal laryngeal motor cortex (dLMC) is critically involved in controlling vocal pitch (Dichter et al., 2018).
 
+![image](https://github.com/user-attachments/assets/8b81804d-5f2d-455c-a835-6b38e285b9c9)
+##### ECoG electrodes visualised in MNI space.
+
 Interestingly, there is growing evidence suggesting a shared neural basis for speech and motor expression, particularly in the context of gestures and their relationship to speech production and comprehension. Xu et al. (2009) demonstrated that symbolic gestures and spoken language activate overlapping brain regions, including the left inferior frontal gyrus (Broca's area) and the posterior superior temporal sulcus, which suggests that a common neural system processes both symbolic gestures and spoken language. 
 
 It would be interesting to investigate the potential shared neural basis between vocal pitch modulation (a key aspect of speech prosody) and speech-related gestures. Gestures, such as hand and arm movements, often co-occur with speech and can convey additional linguistic and emotional information. These gestures are known to influence speech perception and comprehension (Biau & Soto-Faraco, 2013; Özyürek, 2014). If similar patterns are found in the dLMC for both vocal pitch modulation and speech-related gestures, it would suggest that this region may play a role in integrating prosodic and gestural information during communication.
 
 By exploring the spatial and temporal dynamics of the neural activity in the dLMC and other relevant brain regions, we can gain a deeper understanding of how prosodic and gestural information are integrated during communication, and how this integration may support the rich expressive capabilities of human language.
-
-![image](https://github.com/user-attachments/assets/8b81804d-5f2d-455c-a835-6b38e285b9c9)
 
 
 ## Data Processing and Exploratory Analysis
