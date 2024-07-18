@@ -12,7 +12,7 @@ In the prior work I demonstrate the value of incorporating infraslow frequency a
 The ability to flexibly modulate vocal pitch in humans plays a crucial role in conveying linguistic meaning through intonation patterns in speech. Recent research has shown that the dorsal laryngeal motor cortex (dLMC) is critically involved in controlling vocal pitch (Dichter et al., 2018).
 
 ![image](https://github.com/user-attachments/assets/8b81804d-5f2d-455c-a835-6b38e285b9c9)
-##### ECoG electrodes visualised in MNI space.
+##### ECoG electrodes visualised in MNI space (AJILE12 dataset).
 
 Interestingly, there is growing evidence suggesting a shared neural basis for speech and motor expression, particularly in the context of gestures and their relationship to speech production and comprehension. Xu et al. (2009) demonstrated that symbolic gestures and spoken language activate overlapping brain regions, including the left inferior frontal gyrus (Broca's area) and the posterior superior temporal sulcus, which suggests that a common neural system processes both symbolic gestures and spoken language. 
 
