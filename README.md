@@ -1,6 +1,10 @@
-# Neural-signatures-of-speech-motor-coordination
+# Active: Neural-signatures-of-speech-motor-coordination
 
 This repository records my journey to explore a potential shared neural basis between speech and speech-related gesturing. The AJILE12 dataset used contains long-term naturalistic human ECoG recordings with pose and behavioral classifications. 
+
+## For previous works, refer to thesis titled "Wide-bandwidth electrographic characterisation of seizures in rat models of epilepsy using graphene micro-transistors"
+#### In which the value of incorporating infraslow frequency activity (< 0.1 Hz) in seizure onset zone (SOZ) localisation was demonstrated in two rat models of chronic epilepsy (kainic acid and tetanus toxin), and another rat model of acute seizure (picrotoxin). The design and technical ability of two-generations of graphene solution-gated field-effect transistors (gSGFETs) in acquiring wide-bandwidth electrophysiological recordings are illustrated.
+
 
 ## Motivation
 
