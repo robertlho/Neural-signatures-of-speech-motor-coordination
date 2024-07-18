@@ -1,6 +1,6 @@
 # Neural-signatures-of-speech-motor-coordination
 
-This repository records my exploratory journey to investigate a potential shared neural basis between speech and speech-related gesturing.
+This repository records my journey to explore a potential shared neural basis between speech and speech-related gesturing.
 
 ## Motivation
 
