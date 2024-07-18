@@ -78,5 +78,7 @@ Future steps could include exploring further temporal dynamics of the neural-pos
 
 ## License
 
+Link to the AJILE12 GitHub: https://github.com/BruntonUWBio/ajile12-nwb-data
+
 All Rights Reserved
 Copyright (c) 2024 robertlho
