@@ -22,6 +22,7 @@ By exploring the spatial and temporal dynamics of the neural activity in the dLM
 
 
 ## Data Processing and Exploratory Analysis
+All code required to replicate this exploratory analysis can be found within ajile12_exploratory_analysis.ipynb.
 
 #### Data Loading and Preprocessing
 
