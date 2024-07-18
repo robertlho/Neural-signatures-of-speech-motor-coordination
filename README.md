@@ -4,7 +4,7 @@ This repository records my journey to explore a potential shared neural basis be
 
 ### For previous works, refer to thesis titled "Wide-bandwidth electrographic characterisation of seizures in rat models of epilepsy using graphene micro-transistors"
 
-We demonstrate the value of incorporating infraslow frequency activity (< 0.1 Hz) in seizure onset zone (SOZ) localisation in rat models of chronic epilepsy (kainic acid and tetanus). Wide-bandwidth electrophysiological recordings were acquired by two-generations of graphene solution-gated field-effect transistors (gSGFETs).
+In the prior work I demonstrate the value of incorporating infraslow frequency activity (< 0.1 Hz) in seizure onset zone (SOZ) localisation in rat models of chronic epilepsy (kainic acid and tetanus). Wide-bandwidth electrophysiological recordings were acquired by two-generations of graphene solution-gated field-effect transistors (gSGFETs).
 
 
 ## Motivation
