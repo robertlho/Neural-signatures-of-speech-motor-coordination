@@ -15,9 +15,9 @@ The ability to flexibly modulate vocal pitch in humans plays a crucial role in c
 
 Interestingly, there is growing evidence suggesting a shared neural basis for speech and motor expression, particularly in the context of gestures and their relationship to speech production and comprehension. Xu et al. (2009) demonstrated that symbolic gestures and spoken language activate overlapping brain regions, including the left inferior frontal gyrus (Broca's area) and the posterior superior temporal sulcus, which suggests that a common neural system processes both symbolic gestures and spoken language. 
 
-It would be interesting to investigate the potential shared neural basis between vocal pitch modulation (a key aspect of speech prosody) and speech-related gestures. Gestures, such as hand and arm movements, often co-occur with speech and can convey additional linguistic and emotional information. These gestures are known to influence speech perception and comprehension (Biau & Soto-Faraco, 2013; Özyürek, 2014). If patterns are found in the dLMC and speech-related gestures, or between the dLMC and other regions of the motor cortex, it may suggest that this region may play a role in integrating prosodic and gestural information during communication.
+It would be interesting to investigate the potential shared neural basis between vocal pitch modulation (a key aspect of speech prosody) and speech-related gestures. Gestures, such as hand and arm movements, often co-occur with speech and can convey additional linguistic and emotional information. These gestures are known to influence speech perception and comprehension (Biau & Soto-Faraco, 2013; Özyürek, 2014). If patterns are found between the dLMC and affective speech-related gestures, it may suggest that this region plays a role in integrating prosodic and gestural information during communication (Cacciante et al., 2024).
 
-By exploring the spatial and temporal dynamics of the neural activity in the dLMC and other relevant brain regions, we can gain a deeper understanding of how prosodic and gestural information are integrated during the state of talking, and how this integration may support the rich expressive capabilities of human language.
+By exploring the spatial and temporal dynamics of the neural activity in the dLMC and other relevant brain regions, we can gain a deeper understanding of how prosodic and gestural information are integrated during the state of speech, and how this integration may support the rich expressive capabilities of human language.
 
 
 ## Data Processing and Exploratory Analysis
@@ -79,6 +79,12 @@ However, it is important to consider that the observed co-synchrony may not nece
 Future steps could include exploring further temporal dynamics of the neural-pose relationship, investigating other frequency bands or brain regions, and comparing the results across different behavioral events or participants. Incorporating additional data modalities, such as speech recordings or other movement parameters, could provide a more comprehensive understanding of the neural mechanisms underlying speech and gesture coordination.
 
 
+## References
+Dichter BK, Breshears JD, Leonard MK, Chang EF. The Control of Vocal Pitch in Human Laryngeal Motor Cortex. Cell. 2018 Jun 28;174(1):21-31.e9. doi: 10.1016/j.cell.2018.05.016. PMID: 29958109; PMCID: PMC6084806.
+Xu J, Gannon PJ, Emmorey K, Smith JF, Braun AR. Symbolic gestures and spoken language are processed by a common neural system. Proc Natl Acad Sci U S A. 2009 Dec 8;106(49):20664-9. doi: 10.1073/pnas.0909197106. Epub 2009 Nov 18. PMID: 19923436; PMCID: PMC2779203.
+Biau E, Soto-Faraco S. Beat gestures modulate auditory integration in speech perception. Brain Lang. 2013 Feb;124(2):143-52. doi: 10.1016/j.bandl.2012.10.008. Epub 2013 Jan 19. PMID: 23333667.
+Özyürek A. Hearing and seeing meaning in speech and gesture: insights from brain and behaviour. Philos Trans R Soc Lond B Biol Sci. 2014 Sep 19;369(1651):20130296. doi: 10.1098/rstb.2013.0296. PMID: 25092664; PMCID: PMC4123675.
+Cacciante L, Pregnolato G, Salvalaggio S, Federico S, Kiper P, Smania N, Turolla A. Language and gesture neural correlates: A meta-analysis of functional magnetic resonance imaging studies. Int J Lang Commun Disord. 2024 May-Jun;59(3):902-912. doi: 10.1111/1460-6984.12987. Epub 2023 Nov 16. PMID: 37971416.
 
 ## License
 
