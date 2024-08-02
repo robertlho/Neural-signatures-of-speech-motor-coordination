@@ -1,4 +1,4 @@
-### For my previous work on epilepsy, kindly refer to thesis excerpt titled "Wide-bandwidth electrographic characterisation of seizures in rat models of epilepsy using graphene micro-transistors"
+### For my work on epilepsy, kindly refer to thesis excerpt titled "Wide-bandwidth electrographic characterisation of seizures in rat models of epilepsy using graphene micro-transistors"
 
 The thesis discusses the value of incorporating infraslow frequency activity (< 0.1 Hz) in seizure onset zone localisation in rat models of chronic epilepsy (kainic acid and tetanus). Wide-bandwidth electrophysiological recordings were acquired by two-generations of graphene solution-gated field-effect transistors (gSGFETs).
 
