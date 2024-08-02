@@ -81,9 +81,13 @@ Future steps could include exploring further temporal dynamics of the neural-pos
 
 ## References
 Dichter BK, Breshears JD, Leonard MK, Chang EF. The Control of Vocal Pitch in Human Laryngeal Motor Cortex. Cell. 2018 Jun 28;174(1):21-31.e9. doi: 10.1016/j.cell.2018.05.016. PMID: 29958109; PMCID: PMC6084806.
+
 Xu J, Gannon PJ, Emmorey K, Smith JF, Braun AR. Symbolic gestures and spoken language are processed by a common neural system. Proc Natl Acad Sci U S A. 2009 Dec 8;106(49):20664-9. doi: 10.1073/pnas.0909197106. Epub 2009 Nov 18. PMID: 19923436; PMCID: PMC2779203.
+
 Biau E, Soto-Faraco S. Beat gestures modulate auditory integration in speech perception. Brain Lang. 2013 Feb;124(2):143-52. doi: 10.1016/j.bandl.2012.10.008. Epub 2013 Jan 19. PMID: 23333667.
+
 Özyürek A. Hearing and seeing meaning in speech and gesture: insights from brain and behaviour. Philos Trans R Soc Lond B Biol Sci. 2014 Sep 19;369(1651):20130296. doi: 10.1098/rstb.2013.0296. PMID: 25092664; PMCID: PMC4123675.
+
 Cacciante L, Pregnolato G, Salvalaggio S, Federico S, Kiper P, Smania N, Turolla A. Language and gesture neural correlates: A meta-analysis of functional magnetic resonance imaging studies. Int J Lang Commun Disord. 2024 May-Jun;59(3):902-912. doi: 10.1111/1460-6984.12987. Epub 2023 Nov 16. PMID: 37971416.
 
 ## License
