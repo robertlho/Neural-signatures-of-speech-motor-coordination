@@ -70,7 +70,7 @@ Phase-locking value (PLV): Calculate the PLV between the instantaneous phases of
 
 The correlation analysis revealed a statistically significant positive correlation (r = 0.36, p < 0.05) between neural power and pose velocity in one participant. This suggests that there is a moderate relationship between the high gamma power in the selected electrodes and the velocity of the right shoulder movement during "Talk" events.
 
-Certainly, correlation in one participant does not imply causation, and further analysis and experiments would be needed to establish any causal relationship between neural activity and movement. Additionally, the moderate correlation coefficient indicates that there may be other factors influencing the relationship between neural power and pose velocity.
+Correlation in one participant certainly does not imply causation, and further analysis and experiments would be needed to establish any causal relationship between neural activity and movement. Additionally, the moderate correlation coefficient indicates that there may be other factors influencing the relationship between neural power and pose velocity.
 
 Co-synchrony analysis supports the hypothesis of a functional coupling between the dLMC and motor cortex during speech production and gesture. The synchronization of neural activity between these regions may reflect the coordination of laryngeal and limb motor control, potentially facilitating the integration of speech and gesture in communication.
 
