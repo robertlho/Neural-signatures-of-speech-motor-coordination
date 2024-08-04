@@ -38,7 +38,7 @@ Apply the Hilbert transform and convert the instantaneous amplitude to decibels 
 ##### A subset of ECoG electrodes around the dLMC.
 
 ![image](https://github.com/user-attachments/assets/d82e861b-84c7-48f1-8ed4-36131efe2eb5)
-##### Visualizing the power distribution across frequencies and time, for each selected electrode.
+##### Visualizing the power distribution across frequencies and time, for each selected electrode. Representative illustration of six electrodes in the first subject.
 
 
 #### Behavioral Event Segmentation
