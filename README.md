@@ -30,19 +30,22 @@ Extract the coarse behavior labels and select the labels of interest (e.g., "Tal
 
 #### Electrode Selection and Filtering
 
-Select a subset of electrodes of interest based on their MNI coordinates or other criteria (dLMC = 39, -21, 54 / -39, -21, 54).
+Select a subset of electrodes of interest based on their MNI coordinates (dLMC = 39, -21, 54 / -39, -21, 54).
 Filter the neural data using a bandpass filter (e.g., Butterworth filter) to extract the desired frequency range (e.g., 70-150 Hz for high gamma).
 Apply the Hilbert transform and convert the instantaneous amplitude to decibels (dB) to represent neural power.
+
+![Untitled](https://github.com/user-attachments/assets/e337d937-9083-4149-8dd4-b1b3c8e4d363)
+##### A subset of ECoG electrodes around the dLMC.
+
+![image](https://github.com/user-attachments/assets/d82e861b-84c7-48f1-8ed4-36131efe2eb5)
+##### Visualizing the power distribution across frequencies and time, for each selected electrode.
+
 
 #### Behavioral Event Segmentation
 
 Identify the start and stop times of the behavioral events of interest (e.g., "Talk" events) from the coarse labels.
 Segment the neural power data and pose data based on the start and stop times of the behavioral events.
 Ensure that the segmented data chunks are of sufficient length for further analysis (e.g., longer than a minimum filter length).
-
-#### Data Visualization
-
-Plot the spectrogram of the neural power data for each selected electrode to visualize the power distribution across frequencies and time.
 
 #### Data Alignment and Combination
 
@@ -56,7 +59,7 @@ Calculate the Pearson correlation coefficient between the neural power and pose 
 
 #### Co-synchrony Analysis
 
-Calculate suitable co-synchrony measures between the neural power time series of the dLMC and other primary motor cortex electrodes (M1). Performed exploratory analysis include:
+Exploratory analysis of co-synchrony measures between the neural power time series of the dLMC and other primary motor cortex electrodes (M1). These include:
 
 Cross-correlation function between the neural power time series of the dLMC and M1 electrodes at different time lags. The peak cross-correlation value and corresponding time lag will act as surrogate markers of strength and delay of synchronization between the two regions.
 
