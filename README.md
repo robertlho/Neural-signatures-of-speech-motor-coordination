@@ -56,7 +56,7 @@ Calculate the Pearson correlation coefficient between the neural power and pose 
 
 #### Co-synchrony Analysis
 
-Calculate suitable co-synchrony measures between the neural power time series of the dLMC and other motor cortex electrodes. Some common measures include:
+Calculate suitable co-synchrony measures between the neural power time series of the dLMC and other motor cortex electrodes. Some exploratory measures include:
 
 Cross-correlation function between the neural power time series of the dLMC and motor cortex electrodes at different time lags. The peak cross-correlation value and corresponding time lag can indicate the strength and delay of synchronization between the two regions.
 
