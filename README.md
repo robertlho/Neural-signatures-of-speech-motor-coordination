@@ -70,9 +70,7 @@ Calculate the Pearson correlation coefficient between the neural power and pose 
 
 #### Co-synchrony Analysis
 
-To investigate the functional coupling between the dLMC and wrist motor cortex during speech production and gesture, we performed an exploratory analysis of co-synchrony measures between the neural power time series of the dLMC and wrist motor cortex electrodes.
-
-We estimated the spectral coherence between the neural power time series of the dLMC and M1 electrodes. Coherence quantifies the degree of phase synchronization between the two regions as a function of frequency. It ranges from 0 (no coherence) to 1 (perfect coherence) and can reveal frequency-specific synchronization patterns. Significant coherence at specific frequencies may indicate coordinated oscillatory activity facilitating communication between the dLMC and wrist motor cortex.
+To investigate the functional coupling between the dLMC and wrist motor cortex during speech production and gesture, we estimated the spectral coherence between the neural power time series of the dLMC and wrist motor cortex electrodes. Coherence quantifies the degree of phase synchronization between the two regions as a function of frequency. It ranges from 0 (no coherence) to 1 (perfect coherence) and can reveal frequency-specific synchronization patterns. Significant coherence at specific frequencies may indicate coordinated oscillatory activity facilitating communication between the dLMC and wrist motor cortex.
 
 
 ## Conclusion
