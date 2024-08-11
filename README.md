@@ -76,7 +76,7 @@ We estimated the spectral coherence between the neural power time series of the 
 
 
 ## Conclusion
-The moderate correlation and significant co-synchrony between dLMC and wrist motor cortex during speech production provides preliminary support for a shared neural substrate integrating prosodic and gestural information. The midPrCG likely plays a key role in coordinating vocal and manual motor systems to produce affective speech and congruent gestures. Further research linking neural, kinematic, and acoustic analyses is needed to elucidate the precise causal interactions and temporal dynamics of this speech-gesture integration network. These insights can inform understanding of neural mechanisms of multimodal communication and guide development of neurorehabilitation approaches enhancing gesture use in aphasia.
+The moderate correlation and significant co-synchrony between dLMC and wrist motor cortex during speech production provides preliminary support for a shared neural substrate integrating prosodic and gestural information. The midPrCG likely plays a key role in coordinating vocal and manual motor systems to produce affective speech and congruent gestures. Further research linking neural, kinematic, and acoustic analyses is needed to elucidate the precise causal interactions and temporal dynamics of this speech-gesture integration network. These insights can inform the understanding of neural mechanisms of multimodal communication and guide development of neurorehabilitation approaches enhancing gesture use in aphasia.
 
 ## References
 Dichter BK, Breshears JD, Leonard MK, Chang EF. The Control of Vocal Pitch in Human Laryngeal Motor Cortex. Cell. 2018 Jun 28;174(1):21-31.e9. doi: 10.1016/j.cell.2018.05.016. PMID: 29958109; PMCID: PMC6084806.
