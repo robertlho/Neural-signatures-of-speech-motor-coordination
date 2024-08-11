@@ -19,7 +19,7 @@ If patterns are found between the dLMC and affective speech-related gestures, it
 
 ## Results and Interpretation
 
-The correlation analysis between dLMC neural power and gesture velocity revealed a statistically significant positive correlation (r = 0.13, p < 0.001), supporting our hypothesis that affective gestures which co-occur with higher-pitched, i.e. more emotional affective vocalization. This moderate relationship between high gamma power in the selected electrodes and shoulder movement velocity during "Talk" events suggests other factors may also influence this relationship. Correlation in one participant certainly does not imply causation, and further analysis and experiments would be needed to establish any causal relationship between neural activity and movement. Additionally, the moderate correlation coefficient indicates that there may be other factors influencing the relationship between neural power and pose velocity.
+The correlation analysis revealed a statistically significant positive correlation (r = 0.13, p < 0.001) between dLMC neural power and gesture velocity in one participant, supporting our hypothesis that affective gestures co-occur with more emotionally charged, higher-pitched vocalization. This moderate relationship suggests the dLMC, besides laryngeal motor control, may also be involved with co-ordinating upper limb movements to produce affective speech and congruent gestures. Correlation in one participant certainly does not imply causation, and further analysis and experiments would be needed to establish any causal relationship between neural activity and movement. Additionally, the moderate correlation coefficient indicates that there may be other factors influencing the relationship between neural power and gesture velocity.
 
 ![image](https://github.com/user-attachments/assets/a0cd2165-182c-4209-9f86-6aeb0e25b00f)
 ##### Figure 2. Extracted ECoG electrodes of the dLMC (blue) and wrist motor cortex (green). It is based on the neural power time series from these two sets of electrodes that spectral coherence is calculated.
@@ -55,13 +55,13 @@ Apply the Hilbert transform and convert the instantaneous amplitude to decibels 
 #### Behavioral Event Segmentation
 
 Identify the start and stop times of the behavioral events of interest (e.g., "Talk" events) from the coarse labels.
-Segment the neural power data and pose data based on the start and stop times of the behavioral events.
+Segment the neural power data and gesture data based on the start and stop times of the behavioral events.
 Ensure that the segmented data chunks are of sufficient length for further analysis (e.g., longer than a minimum filter length).
 
 #### Data Alignment and Combination
 
 Downsample the neural power data to match the sampling rate of the pose data.
-Combine the downsampled neural power data and pose velocity data into a single dataframe.
+Combine the downsampled neural power data and gesture velocity data into a single dataframe.
 Filter out instances with low velocity (e.g., < 200 pixels/sec) to focus on meaningful movements.
 
 #### Correlation Analysis
