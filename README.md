@@ -8,19 +8,29 @@ This repository records my journey to explore a potential shared neural basis be
 
 ## Motivation
 
-The ability to flexibly modulate vocal pitch in humans plays a crucial role in conveying linguistic meaning through intonation patterns in speech. Recent research has shown that the dorsal laryngeal motor cortex (dLMC) is critically involved in controlling vocal pitch (Dichter et al., 2018).
+The dorsal laryngeal motor cortex (dLMC), situated within the middle precentral gyrus (midPrCG), plays a crucial role in vocal pitch modulation for conveying linguistic meaning through intonation patterns in speech (Bouchard et al., 2013; Dichter et al., 2018). Growing evidence suggests a shared neural basis for speech and motor expression, particularly in gestures related to speech production and comprehension, with overlapping activations in left inferior frontal and posterior superior temporal regions (Xu et al., 2009).
 
 ![image](https://github.com/user-attachments/assets/8b81804d-5f2d-455c-a835-6b38e285b9c9)
 ##### ECoG electrodes visualised in MNI space (AJILE12 dataset).
 
-Interestingly, there is growing evidence suggesting a shared neural basis for speech and motor expression, particularly in the context of gestures and their relationship to speech production and comprehension. Xu et al. (2009) demonstrated that symbolic gestures and spoken language activate overlapping brain regions, including the left inferior frontal gyrus (Broca's area) and the posterior superior temporal sulcus, which suggests that a common neural system processes both symbolic gestures and spoken language. 
+Gestures often co-occur with speech, conveying additional linguistic and emotional information, and influencing speech perception and comprehension (Biau & Soto-Faraco, 2013; Özyürek, 2014). Co-speech gestures are thought to have both communicative and lexical retrieval facilitation functions, helping the speaker convey meaning and access words (Brady et al., 2016). At the neural level, areas involved in semantic processing and multimodal integration, such as the left inferior frontal gyrus (IFG) and middle temporal gyrus (MTG), have been implicated in processing both speech and gestures (Jouravlev et al., 2019; Meghan & Allen, 2013; Straube et al., 2012).
 
-It would be interesting to investigate the potential shared neural basis between vocal pitch modulation (a key aspect of speech prosody) and speech-related gestures. Gestures, such as hand and arm movements, often co-occur with speech and can convey additional linguistic and emotional information. These gestures are known to influence speech perception and comprehension (Biau & Soto-Faraco, 2013; Özyürek, 2014). If patterns are found between the dLMC and affective speech-related gestures, it may suggest that this region plays a role in integrating prosodic and gestural information during communication (Cacciante et al., 2024).
+If patterns are found between the dLMC and affective speech-related gestures, it may suggest this region's role in integrating prosodic and gestural information (Cacciante et al., 2024). This would be consistent with the view that co-speech gestures are tightly coupled with spoken language processing rather than being processed independently (Cacciante et al., 2024). Exploring the spatiotemporal dynamics of neural activity in the dLMC and other speech-gesture integration regions can deepen our understanding of how prosodic and gestural information are coordinated during communication.
 
-By exploring the spatial and temporal dynamics of the neural activity in the dLMC and other relevant brain regions, we can gain a deeper understanding of how prosodic and gestural information are integrated during the state of speech, and how this integration may support the rich expressive capabilities of human language.
+## Results and Interpretation
+
+The correlation analysis revealed a statistically significant positive correlation (r = 0.13, p < 0.001) between dLMC neural power and pose velocity in one participant, supporting our hypothesis that affective gestures which co-occur with higher-pitched, i.e. more emotional affective vocalization. This moderate relationship between high gamma power in the selected electrodes and shoulder movement velocity during "Talk" events suggests other factors may also influence this relationship. Correlation in one participant certainly does not imply causation, and further analysis and experiments would be needed to establish any causal relationship between neural activity and movement. Additionally, the moderate correlation coefficient indicates that there may be other factors influencing the relationship between neural power and pose velocity.
+
+Notably, the co-synchrony analysis yielded an average coherence of 0.3156 between the left dLMC and left wrist motor cortex electrodes, supporting the hypothesis of functional coupling between the dLMC and wrist motor cortex during speech production and gesture. Neurophysiologically, this synchronization may reflect coordinated oscillatory activity facilitating communication between these adjacent cortical areas. Coupled oscillations have been proposed to dynamically link distributed brain regions into functional networks (Varela et al., 2001). The observed dLMC-wrist motor coherence during speech may bind articulatory and manual motor systems, enabling co-speech gesture processing or integration.
+
+However, this co-synchrony does not necessarily imply direct interactions between the dLMC and wrist motor cortex, as it could arise from common subcortical input or network-level synchronization orchestrated by other integration hubs (Cacciante et al., 2024). For example, the left IFG has been proposed as a key convergence zone for speech and gesture processing (Straube et al., 2012; Willems et al., 2007). High-resolution co-synchrony analysis and stimulation studies could help elucidate the network topology and causal interactions of the speech-gesture integration circuit.
+
+The midPrCG, encompassing the dLMC, exhibits unique sensorimotor and multisensory responses relevant for speech (Silva et al., 2022). Its involvement in laryngeal motor control, auditory processing, and grapho-phonological associations aligns well with a role in phonological-motoric aspects of speech production. The current findings reinforce the midPrCG as an essential node for speech motor control and syllabic sequencing, augmenting the traditional focus on Broca's area (IFG).
+
+Ongoing work aims to further characterize the temporal dynamics of the neural-gestural coupling and investigate its modulation across behavioral contexts and participants. Incorporating additional data modalities like speech recordings will enable temporally precise quantification of prosodic-gestural relationships. Linking neural, kinematic, and acoustic analyses could provide a more comprehensive picture of the spatiotemporal neural dynamics underlying speech and gesture coordination.
 
 
-## Data Processing and Exploratory Analysis
+## Methods: Data Processing and Exploratory Analysis
 All code required to replicate this exploratory analysis can be found within ajile12_dLMC_exploratory.ipynb.
 
 #### Data Loading and Preprocessing
@@ -59,28 +69,13 @@ Calculate the Pearson correlation coefficient between the neural power and pose 
 
 #### Co-synchrony Analysis
 
-Exploratory analysis of co-synchrony measures between the neural power time series of the dLMC and other primary motor cortex electrodes (M1). These include:
+To investigate the functional coupling between the dLMC and wrist motor cortex during speech production and gesture, we performed an exploratory analysis of co-synchrony measures between the neural power time series of the dLMC and wrist motor cortex electrodes.
 
-Cross-correlation function between the neural power time series of the dLMC and M1 electrodes at different time lags. The peak cross-correlation value and corresponding time lag will act as surrogate markers of strength and delay of synchronization between the two regions.
-
-Coherence: Estimate the spectral coherence between the neural power time series of the dLMC and M1 electrodes. Coherence quantifies the degree of phase synchronization between the two regions as a function of frequency.
-
-Phase-locking value (PLV) between the instantaneous phases of the neural power time series of the dLMC and M1 electrodes. PLV measures the consistency of phase differences between the two regions across time.
+We estimated the spectral coherence between the neural power time series of the dLMC and M1 electrodes. Coherence quantifies the degree of phase synchronization between the two regions as a function of frequency. It ranges from 0 (no coherence) to 1 (perfect coherence) and can reveal frequency-specific synchronization patterns. Significant coherence at specific frequencies may indicate coordinated oscillatory activity facilitating communication between the dLMC and wrist motor cortex.
 
 
-
-## Results and Interpretation
-
-The correlation analysis revealed a statistically significant positive correlation (r = 0.36, p < 0.05) between neural power and pose velocity in one participant. This suggests that there is a moderate relationship between the high gamma power in the selected electrodes and the velocity of the shoulder movement during "Talk" events.
-
-Correlation in one participant certainly does not imply causation, and further analysis and experiments would be needed to establish any causal relationship between neural activity and movement. Additionally, the moderate correlation coefficient indicates that there may be other factors influencing the relationship between neural power and pose velocity.
-
-Co-synchrony analysis supports the hypothesis of a functional coupling between the dLMC and M1 during speech production and gesture. The synchronization of neural activity between these regions may reflect the coordination of laryngeal and limb motor control, potentially facilitating the integration of speech and gesture in communication.
-
-However, any observed co-synchrony may not necessarily imply direct communication between the dLMC and subregions within M1. The synchronization could arise from common input or modulatory influences from other brain regions involved in speech and gesture processing. Further investigation using techniques such as effective connectivity analysis or stimulation studies could help elucidate the directionality and causal relationships between these regions.
-
-Ongoing work includes exploring further temporal dynamics of the neural-pose relationship, investigating other frequency bands or brain regions, and comparing the results across different behavioral events or participants. Incorporating additional data modalities, such as speech recordings for detailed quantification of affective vocalization, could provide a more comprehensive understanding of the neural mechanisms underlying speech and gesture coordination.
-
+## Conclusion
+The moderate correlation and significant co-synchrony between dLMC and wrist motor cortex during speech production provides preliminary support for a shared neural substrate integrating prosodic and gestural information. The midPrCG likely plays a key role in coordinating vocal and manual motor systems to produce affective speech and congruent gestures. Further research linking neural, kinematic, and acoustic analyses is needed to elucidate the precise causal interactions and temporal dynamics of this speech-gesture integration network. These insights can inform understanding of neural mechanisms of multimodal communication and guide development of neurorehabilitation approaches enhancing gesture use in aphasia.
 
 ## References
 Dichter BK, Breshears JD, Leonard MK, Chang EF. The Control of Vocal Pitch in Human Laryngeal Motor Cortex. Cell. 2018 Jun 28;174(1):21-31.e9. doi: 10.1016/j.cell.2018.05.016. PMID: 29958109; PMCID: PMC6084806.
