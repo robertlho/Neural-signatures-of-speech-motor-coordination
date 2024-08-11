@@ -13,7 +13,7 @@ The dorsal laryngeal motor cortex (dLMC), situated within the middle precentral 
 ![image](https://github.com/user-attachments/assets/8b81804d-5f2d-455c-a835-6b38e285b9c9)
 ##### Figure 1. ECoG electrodes visualised in MNI space (AJILE12 dataset).
 
-Gestures often co-occur with speech, conveying additional linguistic and emotional information, and influencing speech perception and comprehension (Biau & Soto-Faraco, 2013; Özyürek, 2014). Co-speech gestures are thought to have both communicative and lexical retrieval facilitation functions, helping the speaker convey meaning and access words (Brady et al., 2016). At the neural level, areas involved in semantic processing and multimodal integration, such as the left inferior frontal gyrus (IFG) and middle temporal gyrus (MTG), have been implicated in processing both speech and gestures (Jouravlev et al., 2019; Meghan & Allen, 2013; Straube et al., 2012).
+Gestures often co-occur with speech, conveying additional linguistic and emotional information, and influencing speech perception and comprehension (Biau & Soto-Faraco, 2013; Özyürek, 2014). Co-speech gestures are thought to have both communicative and lexical retrieval facilitation functions, helping the speaker convey meaning and access words (Brady et al., 2016). At the neural level, areas involved in semantic processing and multimodal integration, such as the left inferior frontal gyrus (IFG) and middle temporal gyrus (MTG), have been implicated in processing both speech and gestures (Jouravlev et al., 2019; Straube et al., 2012).
 
 If patterns are found between the dLMC and affective speech-related gestures, it may suggest this region's role in integrating prosodic and gestural information (Cacciante et al., 2024). This would be consistent with the view that co-speech gestures are tightly coupled with spoken language processing rather than being processed independently (Cacciante et al., 2024). Exploring the spatiotemporal dynamics of neural activity in the dLMC and other speech-gesture integration regions can deepen our understanding of how prosodic and gestural information are coordinated during communication.
 
@@ -24,7 +24,7 @@ The correlation analysis revealed a statistically significant positive correlati
 ![image](https://github.com/user-attachments/assets/a0cd2165-182c-4209-9f86-6aeb0e25b00f)
 ##### Figure 2. Extracted ECoG electrodes of the dLMC (blue) and wrist motor cortex (green). It is based on the neural power time series from these two sets of electrodes that spectral coherence is calculated.
 
-Notably, the co-synchrony analysis yielded an average coherence of 0.3156 between the left dLMC and left wrist motor cortex electrodes, supporting the hypothesis of functional coupling between the dLMC and wrist motor cortex during speech production and gesture. Neurophysiologically, this synchronization may reflect coordinated oscillatory activity facilitating communication between these adjacent cortical areas. Coupled oscillations have been proposed to dynamically link distributed brain regions into functional networks (Varela et al., 2001). The observed dLMC-wrist motor coherence during speech may bind articulatory and manual motor systems, enabling co-speech gesture processing or integration.
+Notably, the co-synchrony analysis yielded an average coherence of 0.3156 between the left dLMC and left wrist motor cortex electrodes, supporting the hypothesis of functional coupling between the dLMC and wrist motor cortex during speech production and gesture. Neurophysiologically, this synchronization may reflect coordinated oscillatory activity facilitating communication between these adjacent cortical areas. Articulatory and manual motor systems may be bound together, enabling co-speech gesture processing or integration.
 
 However, this co-synchrony does not necessarily imply direct interactions between the dLMC and wrist motor cortex, as it could arise from common subcortical input or network-level synchronization orchestrated by other integration hubs (Cacciante et al., 2024). For example, the left IFG has been proposed as a key convergence zone for speech and gesture processing (Straube et al., 2012; Willems et al., 2007). High-resolution co-synchrony analysis and stimulation studies could help elucidate the network topology and causal interactions of the speech-gesture integration circuit.
 
@@ -90,7 +90,17 @@ Biau E, Soto-Faraco S. Beat gestures modulate auditory integration in speech per
 
 Özyürek A. Hearing and seeing meaning in speech and gesture: insights from brain and behaviour. Philos Trans R Soc Lond B Biol Sci. 2014 Sep 19;369(1651):20130296. doi: 10.1098/rstb.2013.0296. PMID: 25092664; PMCID: PMC4123675.
 
+Brady MC, Kelly H, Godwin J, Enderby P, Campbell P. Speech and language therapy for aphasia following stroke. Cochrane Database Syst Rev. 2016 Jun 1;2016(6):CD000425. doi: 10.1002/14651858.CD000425.pub4. PMID: 27245310; PMCID: PMC8078645.
+
 Cacciante L, Pregnolato G, Salvalaggio S, Federico S, Kiper P, Smania N, Turolla A. Language and gesture neural correlates: A meta-analysis of functional magnetic resonance imaging studies. Int J Lang Commun Disord. 2024 May-Jun;59(3):902-912. doi: 10.1111/1460-6984.12987. Epub 2023 Nov 16. PMID: 37971416.
+
+Jouravlev O, Zheng D, Balewski Z, Le Arnz Pongos A, Levan Z, Goldin-Meadow S, Fedorenko E. Speech-accompanying gestures are not processed by the language-processing mechanisms. Neuropsychologia. 2019 Sep;132:107132. doi: 10.1016/j.neuropsychologia.2019.107132. Epub 2019 Jul 2. PMID: 31276684; PMCID: PMC6708375.
+
+Straube B, Green A, Weis S, Kircher T. A supramodal neural network for speech and gesture semantics: an fMRI study. PLoS One. 2012;7(11):e51207. doi: 10.1371/journal.pone.0051207. Epub 2012 Nov 30. PMID: 23226488; PMCID: PMC3511386.
+
+Willems RM, Ozyürek A, Hagoort P. When language meets action: the neural integration of gesture and speech. Cereb Cortex. 2007 Oct;17(10):2322-33. doi: 10.1093/cercor/bhl141. Epub 2006 Dec 11. PMID: 17159232.
+
+Silva AB, Liu JR, Zhao L, Levy DF, Scott TL, Chang EF. A Neurosurgical Functional Dissection of the Middle Precentral Gyrus during Speech Production. J Neurosci. 2022 Nov 9;42(45):8416-8426. doi: 10.1523/JNEUROSCI.1614-22.2022. PMID: 36351829; PMCID: PMC9665919.
 
 ## License
 
