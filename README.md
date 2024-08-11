@@ -11,7 +11,7 @@ This repository records my journey to explore a potential shared neural basis be
 The dorsal laryngeal motor cortex (dLMC), situated within the middle precentral gyrus (midPrCG), plays a crucial role in vocal pitch modulation for conveying linguistic meaning through intonation patterns in speech (Bouchard et al., 2013; Dichter et al., 2018). Growing evidence suggests a shared neural basis for speech and motor expression, particularly in gestures related to speech production and comprehension, with overlapping activations in left inferior frontal and posterior superior temporal regions (Xu et al., 2009).
 
 ![image](https://github.com/user-attachments/assets/8b81804d-5f2d-455c-a835-6b38e285b9c9)
-##### ECoG electrodes visualised in MNI space (AJILE12 dataset).
+##### Figure 1. ECoG electrodes visualised in MNI space (AJILE12 dataset).
 
 Gestures often co-occur with speech, conveying additional linguistic and emotional information, and influencing speech perception and comprehension (Biau & Soto-Faraco, 2013; Özyürek, 2014). Co-speech gestures are thought to have both communicative and lexical retrieval facilitation functions, helping the speaker convey meaning and access words (Brady et al., 2016). At the neural level, areas involved in semantic processing and multimodal integration, such as the left inferior frontal gyrus (IFG) and middle temporal gyrus (MTG), have been implicated in processing both speech and gestures (Jouravlev et al., 2019; Meghan & Allen, 2013; Straube et al., 2012).
 
@@ -22,7 +22,7 @@ If patterns are found between the dLMC and affective speech-related gestures, it
 The correlation analysis revealed a statistically significant positive correlation (r = 0.13, p < 0.001) between dLMC neural power and pose velocity in one participant, supporting our hypothesis that affective gestures which co-occur with higher-pitched, i.e. more emotional affective vocalization. This moderate relationship between high gamma power in the selected electrodes and shoulder movement velocity during "Talk" events suggests other factors may also influence this relationship. Correlation in one participant certainly does not imply causation, and further analysis and experiments would be needed to establish any causal relationship between neural activity and movement. Additionally, the moderate correlation coefficient indicates that there may be other factors influencing the relationship between neural power and pose velocity.
 
 ![image](https://github.com/user-attachments/assets/a0cd2165-182c-4209-9f86-6aeb0e25b00f)
-##### Extracted ECoG electrodes of the dLMC (blue) and wrist motor cortex (green). It is based on the neural power time series frin these two sets of electrodes that spectral coherence is calculated.
+##### Figure 2. Extracted ECoG electrodes of the dLMC (blue) and wrist motor cortex (green). It is based on the neural power time series frin these two sets of electrodes that spectral coherence is calculated.
 
 Notably, the co-synchrony analysis yielded an average coherence of 0.3156 between the left dLMC and left wrist motor cortex electrodes, supporting the hypothesis of functional coupling between the dLMC and wrist motor cortex during speech production and gesture. Neurophysiologically, this synchronization may reflect coordinated oscillatory activity facilitating communication between these adjacent cortical areas. Coupled oscillations have been proposed to dynamically link distributed brain regions into functional networks (Varela et al., 2001). The observed dLMC-wrist motor coherence during speech may bind articulatory and manual motor systems, enabling co-speech gesture processing or integration.
 
@@ -43,15 +43,13 @@ Extract the coarse behavior labels and select the labels of interest (e.g., "Tal
 
 #### Electrode Selection and Filtering
 
-Select a subset of electrodes of interest based on their MNI coordinates (dLMC = 39, -21, 54 / -39, -21, 54).
-Filter the neural data using a bandpass filter (e.g., Butterworth filter) to extract the desired frequency range (e.g., 70-150 Hz for high gamma).
+Select a subset of electrodes of interest based on their MNI coordinates (dLMC = 39, -5, 40 / -39, -5, 40), (wrist motor cortex = 39, -8, 60 / -39, -8, 60).
+
+Filter the neural data using a bandpass filter to extract the desired frequency range (70-150 Hz for high gamma).
 Apply the Hilbert transform and convert the instantaneous amplitude to decibels (dB) to represent neural power.
 
-![Untitled](https://github.com/user-attachments/assets/e337d937-9083-4149-8dd4-b1b3c8e4d363)
-##### A subset of ECoG electrodes around the dLMC.
-
 ![image](https://github.com/user-attachments/assets/d82e861b-84c7-48f1-8ed4-36131efe2eb5)
-##### Visualizing the power distribution across frequencies and time, for each selected electrode. Representative illustration of six electrodes in the first subject.
+##### Figure 3. Visualizing the power distribution across frequencies and time, for each selected electrode. Representative illustration of six dLMC electrodes in the first subject.
 
 
 #### Behavioral Event Segmentation
