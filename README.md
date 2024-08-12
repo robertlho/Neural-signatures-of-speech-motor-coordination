@@ -34,7 +34,7 @@ Ongoing work aims to further characterize the temporal dynamics of the neural-ge
 
 
 ## Methods: Data Processing and Exploratory Analysis
-All code required to replicate this exploratory analysis can be found within ajile12_dLMC_exploratory.ipynb.
+All code required to replicate this exploratory analysis can be found within ajile12_dLMC_exploratory_aug_github.ipynb.
 
 #### Data Loading and Preprocessing
 
