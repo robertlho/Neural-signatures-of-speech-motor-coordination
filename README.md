@@ -62,7 +62,7 @@ Ensure that the segmented data chunks are of sufficient length for further analy
 
 Downsample the neural power data to match the sampling rate of the pose data.
 Combine the downsampled neural power data and gesture velocity data into a single dataframe.
-Filter out instances with low velocity (e.g., < 200 pixels/sec) to focus on meaningful movements.
+Filter out instances with low velocity (e.g., < 100 pixels/sec) to focus on meaningful movements.
 
 #### Correlation Analysis
 
